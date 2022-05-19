@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
-      - name: Run pwd
-        run: pwd
         with:
           MY_NAME: "Mona"
+      - name: Run pwd
+        run: pwd
